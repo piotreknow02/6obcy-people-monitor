@@ -23,14 +23,15 @@ var url string = "https://6obcy.org/ajax/online"
 
 func main() {
 	// Check environment
-
 	var outfile = flag.String("out", "./6obcy.db", "output database file")
+	flag.Parse()	
+	
 	if _, err := os.Stat(*outfile); errors.Is(err, os.ErrNotExist) {
 		cwd, err := os.Getwd()
 		if err != nil {
 			panic(err)
 		}
-		fmt.Errorf("DB file does not exist. Creaing %s", path.Join(cwd, *outfile))
+		fmt.Println(fmt.Errorf("DB file does not exist. Creaing %s", path.Join(cwd, *outfile)))
 		_, err = os.Create(*outfile)
 		if err != nil {
 			panic(err)
