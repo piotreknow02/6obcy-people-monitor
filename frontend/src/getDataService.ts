@@ -56,7 +56,9 @@ function remapData(data: Log[]) {
         datasets: [
             {
                 label: "People count",
-                data: data.map((e: Log) => e.count)
+                data: data.map((e: Log) => e.count),
+                tension: 0.2,
+                borderWidth: 7,
             },
         ]
     }

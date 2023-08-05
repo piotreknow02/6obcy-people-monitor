@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.8359375"
+     inkscape:cx="256"
+     inkscape:cy="254.6383"
+     inkscape:window-width="1488"
+     inkscape:window-height="1212"
+     inkscape:window-x="213"
+     inkscape:window-y="110"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="173.75319"
+       y="175.93191"
+       width="212.97021"
+       height="261.44681"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:44.4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       cx="219.77873"
+       cy="214.33191"
+       r="139.71063" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:42.1397;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="51.744682"
+       height="199.3532"
+       x="-4.7554212"
+       y="455.25479"
+       inkscape:label="rect1"
+       transform="rotate(-45)" />
+    <text
+       xml:space="preserve"
+       style="white-space:pre;inline-size:44.8481;fill:#4c5b1b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:47;stroke-dasharray:none;stroke-opacity:1"
+       x="194.99574"
+       y="206.43404"
+       id="text3"
+       inkscape:label="text1"
+       transform="matrix(23.399003,0,0,23.399003,-4437.9879,-4509.7894)"><tspan
+         x="194.99574"
+         y="206.43404"
+         id="tspan1">6</tspan></text>
+  </g>
+</svg>
