@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080"
+const BASE_URL = import.meta.env.VITE_SERVER_URL
 
 interface Log {
     ID: number,
@@ -8,6 +8,7 @@ interface Log {
 
 export async function GetDaily() {
     try {
+        console.log(BASE_URL)
         const res = await fetch(`${BASE_URL}/log/day`)
         const data =  await res.json()
         return remapData(data)

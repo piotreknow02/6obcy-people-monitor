@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  server:
+    build: server
+    restart: always
+    ports:
+      - 8080:8080
+    environment:
+      - PORT=8080
+      - DBFILE=/var/6obcy-monitor/6obcy.db
+    volumes:
+      - ./database:/var/6obcy-monitor/
+    networks:
+      - 6obcy-people-monitor
+
+  frontend:
+    build: 
+      context: frontend
+      args:
+        - SERVER_URL=http://localhost:8080
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - 6obcy-people-monitor
+
+networks:
+  6obcy-people-monitor:
