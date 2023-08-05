@@ -9,6 +9,7 @@ services:
     environment:
       - PORT=8080
       - DBFILE=/var/6obcy-monitor/6obcy.db
+      - ALLOWORIGINS=*
     volumes:
       - ./database:/var/6obcy-monitor/
     networks:
