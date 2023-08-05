@@ -15,9 +15,9 @@ services:
     networks:
       - 6obcy-people-monitor
 
-  frontend:
+  client:
     build: 
-      context: frontend
+      context: client
       args:
         - SERVER_URL=http://localhost:8080
     restart: always
